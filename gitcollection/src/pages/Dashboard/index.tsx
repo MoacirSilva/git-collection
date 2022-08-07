@@ -1,10 +1,16 @@
 import React from 'react';
-import { Title } from './styles';
+import { Title, Form } from './styles';
+import  logo  from '../../assets/logo.svg'
 
 export const Dashboard: React.FC = () => {
   return (
     <>
-      <Title>Dashboard</Title>
+    <img src={logo} alt='GitCollection' />
+      <Title>Catálogo de repositorios do Github</Title>
+      <Form>
+        <input placeholder='username/repository_name' />
+        <button type="submit">Buscar</button>
+      </Form>
     </>
   );
 };

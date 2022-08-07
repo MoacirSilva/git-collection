@@ -7,3 +7,29 @@ export const Title = styled.h1`
   line-height: 56px;
   margin-top: 80px;
 `;
+
+export const Form = styled.form`
+  margin-top: 40px;
+  max-width: 700px;
+  display: flex;
+
+  input{
+    flex: 1;
+    height: 70px;
+    padding: 0 24px;
+    border: 2px solid #fff;
+    border-radius: 5px 0px 0px 5px;
+    color: #3a3a3a;
+    border-right: 0px;
+
+    &::placeholder{
+      color:#a8a8b3
+    }
+  }
+
+  button{
+    width: 160px;
+    background: #4FE;
+
+  }
+`;
