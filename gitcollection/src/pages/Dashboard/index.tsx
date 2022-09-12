@@ -6,7 +6,7 @@ export const Dashboard: React.FC = () => {
   return (
     <>
     <img src={logo} alt='GitCollection' />
-      <Title>Catálogo de repositorios do Github</Title>
+      <Title>Catálogo de repositórios do Github</Title>
       <Form>
         <input placeholder='username/repository_name' />
         <button type="submit">Buscar</button>
